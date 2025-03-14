@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+header .logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Menu de Navegação */
+nav ul {
+  list-style: none;
+  display: flex;
+  background-color: #333;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Carrossel */
+#carrossel {
+  padding: 1px;
+}
+
+.carousel-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1px;
+}
+
+/* Jogo em Destaque */
+#destaque-jogo {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+#destaque-jogo .jogo {
+  text-align: center;
+}
+
+#destaque-jogo .img {
+  width: 200px;
+  margin: 10px;
+}
+
+#destaque-jogo button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+/* ... (seu CSS existente) ... */
+
+/* Estilo para o contador de curtidas */
+#destaque-jogo span, #lista-jogos span {
+  margin-left: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#destaque-jogo .compartilhar {
+background-color: #333;
+  color: white;
+}
+
+#destaque-jogo .botao-download {
+  display: inline-block;
+  background-color: #007dff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* Comentários */
+.comentarios {
+  margin-top: 20px;
+}
+
+.comentarios textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comentarios button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Apoio */
+#apoio {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+#apoio button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+h5 {
+color: red;
+
+}
+/* Lista de Jogos */
+#lista-jogos .jogo {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+#lista-jogos .imagens-jogo img {
+  width: 150px;
+  margin: 5px;
+}
+
+#lista-jogos button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+  #lista-jogos .botao-download {
+  display: inline-block;
+  background-color: #007dff;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
